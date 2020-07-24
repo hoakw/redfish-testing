@@ -64,7 +64,7 @@ time.sleep(0.5)
 get_testList()
 
 print('Start Auto Testing')
-for i in range(0, 200000):
+for i in range(0, 2000000000):
 	auto_testing()
 
 
