@@ -1,15 +1,8 @@
-#!/bin/bash
-
+#/bin/bash
 ./up_server.sh &
 
-sleep 4
+sleep 1
 
-echo "TEST Start - Get Data"
-
-curl http://localhost:8000/redfish/v1
-
-
-
-echo "TEST Finish!!!"
+python3 test_start.py  --host=localhost --port=8000 --dir=./test --time=0.5
 
 kill -9 $(ps -ef | grep redfishMockup | awk '{ print $2 }')
