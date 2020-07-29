@@ -2,12 +2,12 @@
 
 
 echo "Push file in github"
-git config --global user.email "hoakw12@gmail.com"
-git config --global user.name "hoakw"
-git add * 
-git status
-git commit -m "$1"
-git push -u origin master
+#git config --global user.email "hoakw12@gmail.com"
+#git config --global user.name "hoakw"
+#git add * 
+#git status
+#git commit -m "Update: Update Source Code from WebIDE"
+#git push -u origin master
 
 
 echo "Start Jenkins Testing"
