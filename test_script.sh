@@ -1,5 +1,5 @@
 #/bin/bash
-./up_server.sh &
+/bin/bash ./up_server.sh &
 
 sleep 1
 
